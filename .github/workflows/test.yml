@@ -41,5 +41,3 @@ jobs:
         run: npm run build
       - name: Déploiement
         run: echo "Déploiement simulé terminé !"
-      - name: Journaliser l’événement issue
-        run: echo "Une issue a été ${{ github.event.action }}"
